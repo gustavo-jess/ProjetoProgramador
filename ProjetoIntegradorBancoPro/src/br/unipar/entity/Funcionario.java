@@ -1,0 +1,33 @@
+package br.unipar.entity;
+
+import java.time.LocalDateTime;
+
+public class Funcionario extends Pessoa {
+    private LocalDateTime dataContrato;
+    private Double salario;
+    private String rg;
+
+    public LocalDateTime getDataContrato() {
+        return dataContrato;
+    }
+
+    public void setDataContrato(LocalDateTime dataContrato) {
+        this.dataContrato = dataContrato;
+    }
+
+    public Double getSalario() {
+        return salario;
+    }
+
+    public void setSalario(Double salario) {
+        this.salario = salario;
+    }
+
+    public String getRg() {
+        return rg;
+    }
+
+    public void setRg(String rg) {
+        this.rg = rg;
+    }
+}
